@@ -26,7 +26,7 @@ namespace DoCards
                 int vyber = Convert.ToInt32(Console.ReadLine());
                 switch (vyber) {
                     case 1:
-                        Console.WriteLine("Write you To Do Card");
+                        Console.WriteLine("Write your To Do Card");
                         Write();
                         break;
                     case 2:
