@@ -1,9 +1,9 @@
 # DoCards
 easy program that showes you your To Do List in Terminal
 
-to access it from any terminal make yourself
+to access it from any terminal make yourself file named .DoCards.sh
 
-.DoCards.sh
+write this into it:
 
 #!/bin/bash
 
