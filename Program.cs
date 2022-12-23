@@ -23,26 +23,29 @@ namespace DoCards
                         f++;
                     }
                 }
-                int vyber = Convert.ToInt32(Console.ReadLine());
-                switch (vyber) {
+                string vyber = Console.ReadLine();
+                if (int.TryParse(vyber, out int vyberInt))
+                switch (vyberInt) {
                     case 1:
                         Console.WriteLine("Write your To Do Card");
                         Write();
                         break;
                     case 2:
                         Console.WriteLine("Write Card to Delete");
-                        int numtask = Convert.ToInt32(Console.ReadLine());
-                        DelLine(numtask);
+                        string numtask = Console.ReadLine();
+                        if (int.TryParse(numtask, out int numtaskInt)){}else{break;};
+                        DelLine(numtaskInt);
                         File.Delete("text.txt");
                         File.Copy("temp.txt", "text.txt");
                         File.Delete("temp.txt");
                         break;
                     case 3:
                         Console.WriteLine("Number of line you want to change: ");
-                        numtask = Convert.ToInt32(Console.ReadLine());
+                        numtask = Console.ReadLine();
+                        if (int.TryParse(numtask, out numtaskInt)){}else{break;};
                         Console.WriteLine("Write your change version:");
                         string chang = Console.ReadLine();
-                        lineChanger(chang,"text.txt",numtask);
+                        lineChanger(chang,"text.txt",numtaskInt);
                         break;
                     case 4:
                         off = true;

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qLvs3LNxPwN8iJl9LSmuI2fC+jd/CPwWHHQEgmdDkbktpiGCSCOT3XmH4mLSBZ9ZM76Q4HTO2t/2ZNkn95cKgw==",
+  "dgSpecHash": "R98OQ1LN/Sl7CQbs08GrdlWaRA1ibZDeb0Rx/oF/TOUAuGrbFrYU9rGEmXBNoC5j6k5KjllhoMSGPNqBqZfVxQ==",
   "success": true,
-  "projectFilePath": "/home/roko/Documents/vsCodium/c#/DoCards/DoCards.csproj",
-  "expectedPackageFiles": [
-    "/home/roko/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/roko/Documents/DoCards/DoCards.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
